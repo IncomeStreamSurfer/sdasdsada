@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <sitemap>
+    <loc>https://cheeseguide.com/sitemap-cheese-1.xml</loc>
+    <lastmod>2025-02-17T20:32:45.223Z</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://cheeseguide.com/sitemap-region-1.xml</loc>
+    <lastmod>2025-02-17T20:32:45.224Z</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://cheeseguide.com/sitemap-dietary-1.xml</loc>
+    <lastmod>2025-02-17T20:32:45.224Z</lastmod>
+  </sitemap>
+</sitemapindex>

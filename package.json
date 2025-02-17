@@ -1,26 +1,54 @@
 {
-  "name": "my-next-app",
+  "name": "cheese-guide",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
+    "check-setup": "node scripts/check-setup.mjs",
+    "generate-data": "node scripts/generate-data.mjs",
+    "generate-sitemaps": "node scripts/generate-sitemaps.mjs",
     "dev": "next dev",
-    "build": "next build",
+    "build": "npm run generate-data && npm run generate-sitemaps && next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "format": "prettier --write .",
+    "type-check": "tsc --noEmit"
   },
   "dependencies": {
+    "@radix-ui/react-dialog": "^1.0.5",
+    "@radix-ui/react-navigation-menu": "^1.2.5",
+    "@radix-ui/react-slot": "^1.1.2",
+    "@tailwindcss/typography": "^0.5.16",
+    "axios": "^1.6.7",
+    "chart.js": "^4.4.1",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "csv-parse": "^5.5.3",
+    "lucide-react": "^0.323.0",
+    "next": "14.2.23",
+    "openai": "^4.28.0",
+    "p-limit": "^5.0.0",
     "react": "^18",
+    "react-chartjs-2": "^5.2.0",
     "react-dom": "^18",
-    "next": "14.2.23"
+    "tailwind-merge": "^2.6.0",
+    "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
-    "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
-    "postcss": "^8",
-    "tailwindcss": "^3.4.1",
+    "autoprefixer": "^10.0.1",
     "eslint": "^8",
-    "eslint-config-next": "14.2.23"
+    "eslint-config-next": "14.2.23",
+    "eslint-config-prettier": "^9.1.0",
+    "postcss": "^8",
+    "prettier": "^3.2.5",
+    "prettier-plugin-tailwindcss": "^0.5.11",
+    "tailwindcss": "^3.3.0",
+    "typescript": "^5"
+  },
+  "engines": {
+    "node": ">=18.17.0"
   }
 }

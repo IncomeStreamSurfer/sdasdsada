@@ -1,0 +1,4 @@
+cheese,url,milk,country,region,family,type,fat_content,calcium_content,texture,rind,color,flavor,aroma,vegetarian,vegan,synonyms,alt_spellings,producers
+Aarewasser,https://www.cheese.com/aarewasser/,cow,Switzerland,NA,NA,semi-soft,NA,NA,buttery,washed,yellow,sweet,buttery,FALSE,FALSE,NA,NA,Jumi
+Abbaye de Belloc,https://www.cheese.com/abbaye-de-belloc/,sheep,France,Pays Basque,NA,"semi-hard, artisan",NA,NA,"creamy, dense, firm",natural,yellow,burnt caramel,lanoline,TRUE,FALSE,Abbaye Notre-Dame de Belloc,NA,NA
+Abbaye de Belval,https://www.cheese.com/abbaye-de-belval/,cow,France,NA,NA,semi-hard,40-46%,NA,elastic,washed,ivory,NA,aromatic,FALSE,FALSE,NA,NA,NA

@@ -16,6 +16,10 @@ const ITEMS_PER_MINUTE = 500;
 const BATCH_SIZE = 50;
 const DELAY_BETWEEN_BATCHES = Math.floor(60000 / (ITEMS_PER_MINUTE / BATCH_SIZE));
 
+if (!process.env.OPENAI_API_KEY) {
+  throw new Error('OPENAI_API_KEY environment variable is required');
+}
+
 const openai = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY
 });
